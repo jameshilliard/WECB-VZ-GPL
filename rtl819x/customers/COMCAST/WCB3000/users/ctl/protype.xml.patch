@@ -1,0 +1,659 @@
+--- ../../../../../users/ctl/files/libs/private/framework/tr69_build/protype.xml	2013-03-29 11:30:05.001778225 +0800
++++ protype.xml	2013-04-01 16:13:40.000000000 +0800
+@@ -583,63 +583,63 @@
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="1" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="2" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="3" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="4" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="5" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="6" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="7" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="8" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+  		</Object>
+   	</Instance>
+@@ -670,63 +670,63 @@
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="1" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="2" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="3" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="4" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="5" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="6" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="7" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="8" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+  		</Object>
+   	</Instance>
+@@ -757,63 +757,63 @@
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="1" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="2" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="3" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="4" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="5" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="6" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="7" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="8" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+  		</Object>
+   	</Instance>
+@@ -844,63 +844,63 @@
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="1" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="2" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="3" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="4" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="5" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="6" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="7" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="8" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+  		</Object>
+   	</Instance>
+@@ -931,63 +931,63 @@
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="1" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="2" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="3" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="4" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="5" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="6" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="7" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="8" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+  		</Object>
+   	</Instance>
+@@ -1018,63 +1018,63 @@
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="1" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="2" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="3" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="4" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="5" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="6" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="7" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="8" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+  		</Object>
+   	</Instance>
+@@ -1105,63 +1105,63 @@
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="1" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="2" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="3" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="4" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="5" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="6" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="7" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="8" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+  		</Object>
+   	</Instance>
+@@ -1192,63 +1192,63 @@
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="1" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="2" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="3" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="4" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="5" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="6" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="7" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="8" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+  		</Object>
+   	</Instance>
+@@ -1279,63 +1279,63 @@
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="1" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="2" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="3" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="4" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="5" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="6" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="7" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+    		<Instance size="8" writable="1" readable="1">
+    			<Parameter type="string" specSource="TR181" profile="Baseline:1" writable="0" readable="1" nosave="0" default="" maxLength="17" notification="0" name="MACAddress"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="AuthenticationState"/>
+   			<Parameter type="int[-200:0]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="0" notification="0" name="SignalStrength"/>
+   		  	<Parameter type="boolean" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="false" notification="0" name="Active"/>
+-	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" hideParameterFromAcs="true" name="X_COMCAST_COM_LinkQuality"/>
++	  		<Parameter type="unsignedInt[0:100]" specSource="TR181" profile="Baseline:1" writable="1" readable="1" nosave="0" default="100" notification="0" name="X_COMCAST_COM_LinkQuality"/>
+ 		</Instance>
+  		</Object>
+ 	</Instance>

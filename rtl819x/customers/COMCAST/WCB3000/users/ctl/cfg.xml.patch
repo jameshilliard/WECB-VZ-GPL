@@ -1,0 +1,522 @@
+--- ../../../../../users/ctl/files/libs/private/framework/tr69_build/cfg.xml	2013-03-29 11:30:04.981778222 +0800
++++ cfg.xml	2013-04-01 16:13:15.000000000 +0800
+@@ -398,56 +398,56 @@
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="2" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="3" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="4" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="5" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="6" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="7" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="8" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+         </Object>
+       </Instance>
+@@ -478,56 +478,56 @@
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="2" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="3" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="4" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="5" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="6" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="7" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="8" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+         </Object>
+       </Instance>
+@@ -558,56 +558,56 @@
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="2" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="3" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="4" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="5" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="6" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="7" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="8" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+         </Object>
+       </Instance>
+@@ -638,56 +638,56 @@
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="2" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="3" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="4" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="5" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="6" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="7" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="8" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+         </Object>
+       </Instance>
+@@ -718,56 +718,56 @@
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="2" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="3" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="4" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="5" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="6" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="7" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="8" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+         </Object>
+       </Instance>
+@@ -798,56 +798,56 @@
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="2" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="3" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="4" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="5" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="6" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="7" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="8" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+         </Object>
+       </Instance>
+@@ -878,56 +878,56 @@
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="2" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="3" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="4" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="5" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="6" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="7" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="8" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+         </Object>
+       </Instance>
+@@ -958,56 +958,56 @@
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="2" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="3" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="4" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="5" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="6" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="7" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+           <Instance size="8" acl="ReadWrite" nosave="0" data_size="20">
+             <Parameter name="MACAddress" acl="ReadOnly" nosave="0" type="string" maxLength="17" notification="0"></Parameter>
+             <Parameter name="AuthenticationState" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+             <Parameter name="SignalStrength" acl="ReadWrite" nosave="0" type="Int" notification="0">0</Parameter>
+             <Parameter name="Active" acl="ReadWrite" nosave="0" type="boolean" notification="0">0</Parameter>
+-            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0" hideParameterFromAcs="true">100</Parameter>
++            <Parameter name="X_COMCAST_COM_LinkQuality" acl="ReadWrite" nosave="0" type="unsignedInt" notification="0">100</Parameter>
+           </Instance>
+         </Object>
+       </Instance>
